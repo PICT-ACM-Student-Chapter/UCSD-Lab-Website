@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        
+        <meta name="category" content="LIT">
+    
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Conferences / Workshops | Language Information and Technologies</title>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.24.0/css/patternfly.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.24.0/css/patternfly-additions.min.css">
+
+        <!-- Bootstrap core CSS -->
+        <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link href="css/carousel.css" rel="stylesheet">
+        <link href="css/navbar.css" rel="stylesheet">
+        <link href="css/index.css" rel="stylesheet">
+        <link href="css/loader.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    </head>
+    <body>
+      <div class="loader_bg">
+        <div class="loader"></div>
+      </div>
+      <script type="text/javascript" src="preloader.js"></script>
+        <!--Google Analytics "LIT Website" Tracker-->
+        <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-98452906-1', 'auto');
+        ga('send', 'pageview');
+        </script>
+        
+        <div id="main_container" class="container">
+      
+            <nav class="navbar navbar-default navbar-pf" role="navigation">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse-5">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="/">
+                    <h3>Language and Information Technologies</h3>
+                  </a>
+                </div>
+                <div class="collapse navbar-collapse navbar-collapse-5">
+                                   <ul class="nav navbar-nav navbar-primary">
+                    <li class="dropdown">
+                      <a data-target="./people.html" target="_blank" href="people.html" class="dropdown-toggle" data-toggle="dropdown">
+                        People
+                        <!-- <b class="caret"></b> -->
+                      </a>
+                      
+                    </li>
+                    <li class="dropdown">
+                      <a data-target="./projects.html" target="_blank" href="projects.html" class="dropdown-toggle" data-toggle="dropdown">
+                       Projects
+                        <!-- <b class="caret"></b> -->
+                      </a>
+                      
+                    <li class="dropdown">
+                      <a data_target="./publications.html" target="_blank" href="publications.html" class="dropdown-toggle" data-toggle="dropdown">
+                       Publications
+      
+                        <!-- <b class="caret"></b> -->
+                      </a>
+                      
+                    <li class="dropdown">
+                      <a data-target="./posters.html" target="_blank" href="./posters.html" class="dropdown-toggle" data-toggle="dropdown">
+                        Poster gallery
+                        <!-- <b class="caret"></b> -->
+                      </a>
+                      
+                
+                <li class="dropdown">
+                  <a data-target="./downloads.html" target="_blank" href="downloads.html" class="dropdown-toggle" data-toggle="dropdown">
+                    Downloads/Demos 
+                   
+                  </a>
+                  <li class="dropdown">
+                    <a data-target="./news.html" target="_blank" href="news.html" class="dropdown-toggle" data-toggle="dropdown">
+                     Events
+                     
+                    </a>
+              </nav>
+            
+            
+
+           
+
+            <nav class="navbar navbar-default navbar-pf" role="navigation">
+                <div class="collapse navbar-collapse navbar-collapse-5">
+                    <ul class="nav navbar-nav navbar-primary">
+     <li class="dropdown">
+       <a href="news.html" class="dropdown-toggle" data-toggle="dropdown">
+         All News
+         <!-- <b class="caret"></b> -->
+       </a>
+       
+     </li>
+     <li class="dropdown">
+       <a href="reading_group.html" class="dropdown-toggle" data-toggle="dropdown">
+        NLP Reading Group
+         <!-- <b class="caret"></b> -->
+       </a>
+       
+     <li class="dropdown">
+       <a href="conferences.html" class="dropdown-toggle" data-toggle="dropdown">
+        Conferences / Workshops
+
+         <!-- <b class="caret"></b> -->
+       </a>
+
+            </nav>
+
+            <h2 class="featurette-heading">Conferences</h2>
+            
+            <p class="lead">Click below to go to information about conferences that have been organized or chaired by members of the LIT group.</p>
+            <ul id="conferences">
+            </ul>
+            
+            <h2 class="featurette-heading">Workshops</h2>
+            
+            <p class="lead">Click below to go to information about workshops that have been organized or chaired by members of the LIT group.</p>
+            <ul id="workshops">
+            </ul>
+    
+        </div><!-- /.container -->
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
+        <script src="dist/js/bootstrap.min.js"></script>
+        <script src="js/parseCsv.js"></script>
+        <script src="js/workshops_conferences.js"></script>
+    
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+        
+    </body>
+</html>
