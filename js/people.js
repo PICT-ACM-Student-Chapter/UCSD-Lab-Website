@@ -4,7 +4,7 @@ $(document).ready(function() {
     //Dynamically load people
      $.ajax({
         type: "GET",
-        url: "../data/people.csv",
+        url: "./data/people.csv",
         dataType: "text",
         success: function(data) {processPeople(data,pageCategory);}
     });
