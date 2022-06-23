@@ -5,7 +5,7 @@ $(document).ready(function() {
     $.ajaxSetup({ cache: false });
      $.ajax({
         type: "GET",
-        url: "../data/reading_group.url",
+        url: "./data/reading_group.url",
         dataType: "text",
         success: function(data) {processGoogleSheet(data,pageCategory);}
     });

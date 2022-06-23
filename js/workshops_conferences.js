@@ -4,7 +4,7 @@ $(document).ready(function() {
     //Dynamically load recent news
      $.ajax({
         type: "GET",
-        url: "../data/workshops_conferences.csv",
+        url: "./data/workshops_conferences.csv",
         dataType: "text",
         success: function(data) {processConferences(data,pageCategory);}
     });

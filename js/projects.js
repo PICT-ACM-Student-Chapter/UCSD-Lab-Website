@@ -4,7 +4,7 @@ $(document).ready(function() {
     //Dynamically load recent news
      $.ajax({
         type: "GET",
-        url: "../data/projects.csv",
+        url: "./data/projects.csv",
         dataType: "text",
         success: function(data) {processProjects(data,pageCategory);}
     });

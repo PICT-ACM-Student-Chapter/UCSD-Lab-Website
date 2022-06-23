@@ -4,7 +4,7 @@ $(document).ready(function() {
 	//Dynamically load publications
 	$.ajax({
 		type: "GET",
-		url: "../data/publications.csv",
+		url: "./data/publications.csv",
 		dataType: "text",
 		success: function(data) {processPublications(data);}
 	});
