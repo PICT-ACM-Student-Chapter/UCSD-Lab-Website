@@ -133,7 +133,7 @@ function processDownloads(allText,pageCategory) {
             }
             for(var k=0; k<links.length; ++k) {
                 if(links[k]) {
-                    entry = entry + '<a href="' + links[k] + '" target="_blank">';
+                    entry = entry + '<a href="' + links[k] + '" >';
                     if(linkNames.length > k-1 && linkNames[k]) {
                         entry = entry + linkNames[k];
                     } else {

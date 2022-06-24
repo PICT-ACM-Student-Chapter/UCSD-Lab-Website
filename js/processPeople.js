@@ -57,7 +57,7 @@ function processPeople(allText,pageCategory) {
             entry = '<div class="col-md-2"><img src="images/people/none.png" class="profile_pic" alt="No image available"><p class="lead"><b>';
         }
         if(person.link) {
-            entry = entry + '<a href="' + person.link + '" target="_blank">' + person.name + '</a>';
+            entry = entry + '<a href="' + person.link + '" >' + person.name + '</a>';
         } else {
             entry = entry + person.name;
         }
@@ -89,7 +89,7 @@ function processPeople(allText,pageCategory) {
             entry = '<div class="col-md-2"><img src="images/people/none.png" class="profile_pic" alt="No image available"><p class="lead"><b>';
         }
         if(person.link) {
-            entry = entry + '<a href="' + person.link + '" target="_blank">' + person.name + '</a>';
+            entry = entry + '<a href="' + person.link + '" >' + person.name + '</a>';
         } else {
             entry = entry + person.name;
         }
@@ -115,7 +115,7 @@ function processPeople(allText,pageCategory) {
 		person = previousInterns[i];
 		entry = '<p class="lead centered">'
 		if(person.link) {
-            entry = entry + '<a href="' + person.link + '" target="_blank">' + person.name + '</a>';
+            entry = entry + '<a href="' + person.link + '" >' + person.name + '</a>';
         } else {
             entry = entry + person.name;
         }
@@ -133,7 +133,7 @@ function processPeople(allText,pageCategory) {
 		person = previousVisiting[i];
 		entry = '<p class="lead centered">'
 		if(person.link) {
-            entry = entry + '<a href="' + person.link + '" target="_blank">' + person.name + '</a>';
+            entry = entry + '<a href="' + person.link + '" >' + person.name + '</a>';
         } else {
             entry = entry + person.name;
         }

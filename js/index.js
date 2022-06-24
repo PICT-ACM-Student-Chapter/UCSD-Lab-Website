@@ -51,7 +51,7 @@ function processRecentNews(allText,pageCategory) {
         if(found==1) {
             var entry = '<p class="recent-news-date">' + news.date + '</p><div class="lead"><p>' + news.description;
             if(news.link) {
-                entry = entry + ' (<a href="' + news.link + '" target="_blank">link</a>)</p>';
+                entry = entry + ' (<a href="' + news.link + '" >link</a>)</p>';
                 // entry = entry + ' <button type="submit" class="news_btn" onclick=>Click here!</button></p>';
                 // entry = entry + '<a href="'+news.link+'"> <input type=button value="Click here!" class="news_btn"></a>';
             }

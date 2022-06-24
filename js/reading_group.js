@@ -101,7 +101,7 @@ function processReadingGroup(allText,pageCategory) {
             if (liveOK) {
                 for(var k=0; k<presenters.length; ++k) {
                     if(presentersWebsites[k]) {
-                        entry = entry + '<a href="' + presentersWebsites[k] + '" target="_blank">' + presenters[k] + '</a>';
+                        entry = entry + '<a href="' + presentersWebsites[k] + '" >' + presenters[k] + '</a>';
                     } else {
                         entry = entry + presenters[k];
                     }
@@ -124,7 +124,7 @@ function processReadingGroup(allText,pageCategory) {
                     if(paperAuthors[k]) {
                         entry = entry + paperAuthors[k] + '.';
                         if(paperLinks[k]) {
-                            entry = entry + ' "<a href="' + paperLinks[k] + '" target="_blank">' + paperTitles[k] + '</a>" ';
+                            entry = entry + ' "<a href="' + paperLinks[k] + '" >' + paperTitles[k] + '</a>" ';
                         } else if(paperTitles[k]) {
                             entry = entry + ' "' + paperTitles[k] + '" ';
                         }
@@ -132,10 +132,10 @@ function processReadingGroup(allText,pageCategory) {
                             entry = entry + paperConferences[k] + '.'
                         }
                         if(slides.length > 1 && paperAuthors.length > 1) {
-                            entry = entry + ' [<a href="' + slides[k] + '" target="_blank">slides</a>]';
+                            entry = entry + ' [<a href="' + slides[k] + '" >slides</a>]';
                         }
                         if(slides.length == 1 && k == paperAuthors.length-1 && slides[0]) {
-                            entry = entry + ' [<a href="' + slides[0] + '" target="_blank">slides</a>]';
+                            entry = entry + ' [<a href="' + slides[0] + '" >slides</a>]';
                         }
                         if(k != paperAuthors.length-1) {
                             entry = entry + '<br />';

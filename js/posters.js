@@ -41,10 +41,10 @@ function processPublications(allText) {
 	for (var i=0; i<posters.length; i++) {
 		publication = posters[i]
 
-		entry = '<div class="col-md-4"><a href="posters/'+publication.poster+'.pdf" target="_blank"><img src="posters/'+publication.poster+'.jpg" class="poster_image"></a><p class="lead centered"><b>'+publication.posterTitle+'</b>'
+		entry = '<div class="col-md-4"><a href="posters/'+publication.poster+'.pdf" ><img src="posters/'+publication.poster+'.jpg" class="poster_image"></a><p class="lead centered"><b>'+publication.posterTitle+'</b>'
 	
 		if(publication.link) {
-			entry = entry + ' (<a href="'+publication.link+'" target="_blank">full paper</a>)'
+			entry = entry + ' (<a href="'+publication.link+'" >full paper</a>)'
 		}
 
 		entry = entry + '</p>'

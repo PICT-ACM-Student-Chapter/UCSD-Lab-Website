@@ -16,25 +16,25 @@ function showPublication(publication,includeDownloadLink) {
     if(publication.link || publication.demo || publication.data || publication.software || publication.abstract || publication.bibtex || publication.poster) {
         entry = entry + ' ('
         if(publication.link) {
-            entry = entry + '<a href="' + publication.link + '" target="_blank">pdf</a>';
+            entry = entry + '<a href="' + publication.link + '" >pdf</a>';
             if(publication.demo || publication.data || publication.software || publication.abstract || publication.bibtex || publication.poster) {
                 entry = entry + ', ';
             }
         }
         if(publication.demo) {
-            entry = entry + '<a href="' + publication.demo + '" target="_blank">demo</a>';
+            entry = entry + '<a href="' + publication.demo + '" >demo</a>';
             if(publication.data || publication.software || publication.abstract || publication.bibtex || publication.poster) {
                 entry = entry + ', ';
             }
         }
         if(publication.data) {
-            entry = entry + '<a href="' + publication.data + '" target="_blank">data</a>';
+            entry = entry + '<a href="' + publication.data + '" >data</a>';
             if(publication.software || publication.abstract || publication.bibtex || publication.poster) {
                 entry = entry + ', ';
             }
         } 
         if(publication.software) {
-            entry = entry + '<a href="' + publication.software + '" target="_blank">software</a>';
+            entry = entry + '<a href="' + publication.software + '" >software</a>';
             if(publication.abstract || publication.bibtex || publication.poster) {
                 entry = entry + ', ';
             }
@@ -52,7 +52,7 @@ function showPublication(publication,includeDownloadLink) {
 			}
         }
 		if(publication.poster) {
-			entry = entry + '<a class="link-no-underline" href="posters/'+publication.poster+'.pdf" target="_blank">poster</a>';
+			entry = entry + '<a class="link-no-underline" href="posters/'+publication.poster+'.pdf" >poster</a>';
 		}
         entry = entry + ')';
     }
