@@ -47,6 +47,8 @@ padding: 10px;
     float: right;
     width: 46%;
     margin-right: 2%;
+    height: 80vh;
+    overflow-y: auto;
 }
 
 div.lead {
