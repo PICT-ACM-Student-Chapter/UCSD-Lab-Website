@@ -475,8 +475,13 @@ p.lead-nomargin {
 /* Footer section */
 
 footer{
-    text-align: center;
+margin: 50px;
+text-align: center;
 display: flex;
 flex-direction: row;
-justify-content: space-evenly;
+justify-content: space-around;
+}
+
+#footer .container{
+    width: 82.5vw;
 }
