@@ -27,6 +27,7 @@
         <link href="css/index.css" rel="stylesheet">
         <link href="css/loader.css" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     </head>
     <body>
       <script type="text/javascript" src="preloader.js"></script>
@@ -129,30 +130,17 @@
 
            
 
-            <nav class="navbar navbar-default navbar-pf" role="navigation">
-                <div class="collapse navbar-collapse navbar-collapse-5">
-                    <ul class="nav navbar-nav navbar-primary">
-     <li class="dropdown">
-       <a href="news.html" class="dropdown-toggle" data-toggle="dropdown">
-         All News
-         <!-- <b class="caret"></b> -->
-       </a>
-       
-     </li>
-     <li class="dropdown">
-       <a href="reading_group.html" class="dropdown-toggle" data-toggle="dropdown">
-        NLP Reading Group
-         <!-- <b class="caret"></b> -->
-       </a>
-       
-     <li class="dropdown">
-       <a href="conferences.html" class="dropdown-toggle" data-toggle="dropdown">
-        Conferences / Workshops
-
-         <!-- <b class="caret"></b> -->
-       </a>
-
-            </nav>
+              <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link" href="news.html">All News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="reading_group.html">NLP Reading Group</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="conferences.html">Conferences / Workshops</a>
+                </li>
+              </ul>
 
             <div id="reading-group"></div>
 
