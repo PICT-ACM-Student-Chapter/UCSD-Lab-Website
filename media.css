@@ -3,6 +3,9 @@
     {
         margin-top: 20px !important;
     }
+    .navbar-pf .navbar-toggle {
+        padding: 10px 20px;
+    }
     .navbar-default .navbar-nav>li>a
     {
         background-color: black !important;

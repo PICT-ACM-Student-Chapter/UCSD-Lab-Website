@@ -13,6 +13,7 @@ body{
 {
     color:grey;
 }
+
 .row
 {
 margin-right: 1px;
@@ -223,6 +224,11 @@ p.bibtex {
 
 .underlined {
     text-decoration: underline;
+}
+
+#reading-group{
+    width: 100%;
+    overflow-x: auto;
 }
 
 #reading-group-table {
@@ -495,4 +501,8 @@ border:none;
 
 #footer .col:nth-child(3){
     text-align: right;
+}
+
+.active{
+    background-color: #eeeeee;
 }
