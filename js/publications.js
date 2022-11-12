@@ -139,16 +139,12 @@ function showCategories() {
     document.querySelector('#categories button').innerHTML = "Categories ↓";
     $('#categories .dropdown').append('<ul class="dropdown-menu"></ul>')
     for(var i=0; i<categories.length; ++i) {
-        $('#categories .dropdown-menu').append('<li><a class="dropdown-item" href="#">Action</a></li>')
         if(categorySet==1 && category==categories[i]) {
-            entry = '<br>';
-            entry = '<a onclick="loadCategory(\'' + categories[i] + '\')" href="#"><b>' + categories[i] + "</b></a>";
+            entry = '<a class = "dropdown-item" onclick="loadCategory(\'' + categories[i] + '\')" href="#"><b>' + categories[i] + "</b></a>";
         } else {
-            entry = '<a onclick="loadCategory(\'' + categories[i] + '\')" href="#">' + categories[i] + "</a>";
+            entry = '<a class = "dropdown-item" onclick="loadCategory(\'' + categories[i] + '\')" href="#">' + categories[i] + "</a>";
         }
-        if(i != categories.length-1) {
-            entry = '<br>';
-        }
+        $('#categories .dropdown-menu').append('<li><a class="dropdown-item" href="#">'+entry+'</a></li>')
     }
     
 }
