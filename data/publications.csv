@@ -1,5 +1,5 @@
 year,title,authors,publication,link,category,demo,data,software,bibtex,abstract,poster,posterTitle,posterAuthors,posterConference,posterYear,posterLocation,pageCategory,download,downloadName,downloadDescription,downloadLink,downloadDate,downloadLinkNames,new,notes
-2021,Latent Hatred: A Benchmark for Understanding Implicit Hate Speech,"M. ElSherief*, C. Ziems*, D. Muchlinski, V. Anupindi, J. Seybolt, M. De Choudhury, D. Yang.",EMNLP 2021,https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fpdf%2F2109.05322&sa=D&sntz=1&usg=AOvVaw0Jv9Ach5EywP23ksdybQBc,FIB,,,,,"Hate speech has grown significantly on social
+2021,Latent Hatred: A Benchmark for Understanding Implicit Hate Speech,"M. ElSherief*, C. Ziems*, D. Muchlinski, V. Anupindi, J. Seybolt, M. De Choudhury, D. Yang.",EMNLP 2021,https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fpdf%2F2109.05322&sa=D&sntz=1&usg=AOvVaw0Jv9Ach5EywP23ksdybQBc,"FIB, vision, webd",,,,,"Hate speech has grown significantly on social
 media, causing serious consequences for victims of all demographics. Despite much attention being paid to characterize and detect
 discriminatory speech, most work has focused
 on explicit or overt hate speech, failing to address a more pervasive form based on coded
@@ -9,11 +9,11 @@ corpus with fine-grained labels for each message and its implication. We present
 hate speech, and we discuss key features that
 challenge existing models. This dataset will
 continue to serve as a useful benchmark for understanding this multifaceted issue. To download the data, see https://github.com/
-GT-SALT/implicit-hate",,,,,,,LIT,FALSE,,,,,,FALSE,
-2021,Lifelong Learning of Hate Speech Classification on Social Media,"J. Qian, H. Wang, M. ElSherief, X. Yan",NAACL 2021,https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fpdf%2F2106.02821&sa=D&sntz=1&usg=AOvVaw3gJbPxFcOGyEL5ZjODMGyo,FIB,,,,,,,,,,,,LIT,FALSE,,,,,,FALSE,
-2020 and earlier,Towards Understanding Gender Bias in Neural Relation Extraction,"A. Gaut, T. Sun,  S. Tang,  Y. Huang, J. Qian, M. ElSherief, J. Zhao, D. Mirza, E. Belding, K. Chang and W. Yang Wang ",ACL 2020,https://arxiv.org/pdf/1911.03642.pdf,FIB,,,,,,,,,,,,LIT,FALSE,,,,,,FALSE,
+GT-SALT/implicit-hate",ACL.2019.Multimodal-Sarcasm-poster,title1,"poster authors, poster authors2",IEE poster conference,2020,San Diego,LIT,FALSE,,,,,,FALSE,
+2021,Lifelong Learning of Hate Speech Classification on Social Media,"J. Qian, H. Wang, M. ElSherief, X. Yan",NAACL 2021,https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fpdf%2F2106.02821&sa=D&sntz=1&usg=AOvVaw3gJbPxFcOGyEL5ZjODMGyo,"vision, text, analysis, webd",,,,,,ACL.2019.Multimodal-Sarcasm-poster,title2,"poster authors, poster authors2",IEE poster conference,2021,San Diego,LIT,FALSE,,,,,,FALSE,
+2020 and earlier,Towards Understanding Gender Bias in Neural Relation Extraction,"A. Gaut, T. Sun,  S. Tang,  Y. Huang, J. Qian, M. ElSherief, J. Zhao, D. Mirza, E. Belding, K. Chang and W. Yang Wang ",ACL 2020,https://arxiv.org/pdf/1911.03642.pdf,"FIB, app, text",,,,,,ACL.2019.Multimodal-Sarcasm-poster,title3,"poster authors, poster authors2",IEE poster conference,2022,San Diego,LIT,FALSE,,,,,,FALSE,
 2020 and earlier,Measuring and Characterizing Hate Speech on News Websites,"S. Zannettou, M. ElSherief, E. Belding, S. Nilizadeh, G. Stringhini (2020).",WebSci 2020,https://dl.acm.org/doi/pdf/10.1145/3394231.3397902,FIB,,,,,,,,,,,,LIT,FALSE,,,,,,FALSE,
-2020 and earlier,Mitigating Gender Bias in Natural Language Processing: Literature Review,"T. Sun,  A. Gaut,  S. Tang,  Y. Huang, M. ElSherief, J. Zhao, D. Mirza, E. Belding, Chang K., and W. Yang Wang",ACL 2019 ,https://arxiv.org/pdf/1906.08976.pdf,FIB,,,,,,,,,,,,LIT,FALSE,,,,,,FALSE,
+2020 and earlier,Mitigating Gender Bias in Natural Language Processing: Literature Review,"T. Sun,  A. Gaut,  S. Tang,  Y. Huang, M. ElSherief, J. Zhao, D. Mirza, E. Belding, Chang K., and W. Yang Wang","ACL 2019 ",https://arxiv.org/pdf/1906.08976.pdf,FIB,,,,,,,,,,,,LIT,FALSE,,,,,,FALSE,
 2020 and earlier,Learning to Decipher Hate Symbols,"J. Qian, M. ElSherief, E. Belding, W. Yang Wang",NAACL 2019,https://arxiv.org/pdf/1904.02418.pdf,FIB,,,,,,,,,,,,LIT,FALSE,,,,,,FALSE,
 2020 and earlier,Hierarchical CVAE for Fine-Grained Hate Speech Classification,"J Qian, M ElSherief, E Belding, WY Wang",EMNLP 2018,https://arxiv.org/pdf/1809.00088.pdf,FIB,,,,,,,,,,,,LIT,FALSE,,,,,,FALSE,
 2020 and earlier,"Leveraging Intra-User and Inter-User Representation Learning for
