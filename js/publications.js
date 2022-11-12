@@ -133,17 +133,20 @@ function loadCategory(category) {
 function showCategories() {
     categories.sort(compareCategories);
     entry = "";
+    $('#categories').append('<p class="lead">View publications by category ' + '</p>');
+    $('#categories').append('<div class="dropdown"></div>');
+    $('#categories .dropdown').append('<button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"></button>')
+    document.querySelector('#categories button').innerHTML = "Categories ↓";
+    $('#categories .dropdown').append('<ul class="dropdown-menu"></ul>')
     for(var i=0; i<categories.length; ++i) {
         if(categorySet==1 && category==categories[i]) {
-            entry = entry + '<a onclick="loadCategory(\'' + categories[i] + '\')" href="#"><b>' + categories[i] + "</b></a>";
+            entry = '<a class = "dropdown-item" onclick="loadCategory(\'' + categories[i] + '\')" href="#"><b>' + categories[i] + "</b></a>";
         } else {
-            entry = entry + '<a onclick="loadCategory(\'' + categories[i] + '\')" href="#">' + categories[i] + "</a>";
+            entry = '<a class = "dropdown-item" onclick="loadCategory(\'' + categories[i] + '\')" href="#">' + categories[i] + "</a>";
         }
-        if(i != categories.length-1) {
-            entry = entry + ', ';
-        }
+        $('#categories .dropdown-menu').append('<li><a class="dropdown-item" href="#">'+entry+'</a></li>')
     }
-    $('#categories').append('<p class="lead">View publications by category: ' + entry + '</p>');
+    
 }
 
 function compareCategories(a, b) {

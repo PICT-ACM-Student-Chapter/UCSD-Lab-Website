@@ -1,5 +1,10 @@
 /* LIT Home Page */
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .navbar-default .navbar-nav>li>a 
 {
     color: white;
@@ -8,6 +13,7 @@
 {
     color:grey;
 }
+
 .row
 {
 margin-right: 1px;
@@ -44,9 +50,12 @@ padding: 10px;
 }
 
 #recent_news {
+
     float: right;
     width: 46%;
     margin-right: 2%;
+    height: 80vh;
+    overflow-y: auto;
 }
 
 div.lead {
@@ -215,6 +224,11 @@ p.bibtex {
 
 .underlined {
     text-decoration: underline;
+}
+
+#reading-group{
+    width: 100%;
+    overflow-x: auto;
 }
 
 #reading-group-table {
@@ -467,4 +481,28 @@ p.lead-nomargin {
 
 #top_margin {
     margin-top: 20px;
+}
+
+/* Footer section */
+
+#footer{
+    background-color: #eeeeee;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+#footer .row{
+border:none;
+}
+
+#footer .row .links{
+    margin-top: 10px;
+}
+
+#footer .col:nth-child(3){
+    text-align: right;
+}
+
+.active{
+    background-color: #eeeeee;
 }
